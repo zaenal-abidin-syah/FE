@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #aaa;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(85, 85, 240);
+    overflow: auto;
+    line-height: 3.1em;
+    border-radius: 0 0 0.8em 0.8em;
+    box-shadow: 3px 2px 3px 1px rgb(84, 83, 95);
+}
+.judul{
+    font-size: 2em;
+    line-height: 2.1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgb(76, 69, 156);
+    width: 40%;
+    color: rgb(206, 205, 223);
+    float: left;
+}
+.menu{
+    font-size: 1.1em;
+    width: 60%;
+    float: left;
+}
+
+.menu ul{
+    box-sizing: border-box;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu ul li a{
+    color: rgb(18, 18, 88);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+}
+.menu ul li a:hover{
+    background-color: rgb(107, 107, 243);
+    color:  rgb(228, 228, 250);
+}

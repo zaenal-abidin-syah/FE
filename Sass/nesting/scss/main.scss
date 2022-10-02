@@ -1,0 +1,41 @@
+// .main{
+//     background-color: lightblue;
+//     .main-heading{
+//         font-size: 2em;
+//     }
+//     .main-paragraph{
+//         font-size: 1.4em;
+//     }
+// }
+
+// .main,footer{
+//     h1,p{
+//         letter-spacing: 1px;
+//     }
+// }
+
+// .main{
+//     // parent
+//     .container &{
+//         background-color: lightblue;
+//     }
+//     .main-heading{
+//         font-size: 2em;
+//     }
+//     // pseudo class
+//     &:hover{
+//         background-color: salmon;
+//     }
+// }
+
+// bisa kita gunakan untuk mengenerate otomatis nama dari parent selectornya
+
+// .main{
+//     &-heading{
+//         font-size: 2em;
+//     }
+//     // jika ingin ada nesting tambahkan & satu lagi
+//     & &-paragraph{
+//         font-size: 1.4em;
+//     }
+// }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style type="text/css">
+		body{
+			/*display: flex;*/
+			/*align-items: center;*/
+		}
+		.box{
+			display: flex;
+			align-items: center;
+			width: 300px;
+			height: 200px;
+			/*margin: 0px 50%;*/
+		}
+		#i{
+			width: 100%;
+			height: 25px;
+			margin: 5px auto;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<div class="box">
+		<input id="i">
+    	<div id="hasil"></div>
+	</div>
+
+	</form>
+	
+	
+	<script type="text/javascript">
+    	let i=document.getElementById("i");
+		i.oninput=function()
+			{
+	        	let i=document.getElementById("i").value;
+	        	if (i===""){
+	        		document.getElementById("hasil").innerHTML="nilai tidak boleh kosong";
+	        	} else if (i.length < 20)
+	    			{    
+	    				regex=/([^a-z ])+/gi
+						if (regex.test(i)===false)
+					    {
+					    document.getElementById("hasil").innerHTML="nilai valid";
+						}
+						else{
+						    document.getElementById("hasil").innerHTML="nama hanya boleh berupa huruf";
+						    }
+	        		}else{
+						document.getElementById("hasil").innerHTML="nama terlalu panjang";
+    				}
+	        	
+
+        	}
+	</script>
+</body>
+</html>

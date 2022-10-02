@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	background-color: royalblue;
+	display: flex;
+	height: 60px;
+}
+
+.container .header{
+	font-size: 40px;
+	margin: auto;
+	padding-left: 30px;
+	flex: 1;
+	/*background-color: #333;*/
+}
+
+.container .menu{
+	text-align: center;
+	display: flex;
+	flex: 1;
+	/*background-color: #555;*/
+}
+
+.container .menu ul{
+	list-style: none;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	/*background-color: #777;*/
+}
+.container .menu ul li{
+	display: flex;
+	margin: auto;
+	flex: 1;
+}
+
+.container .menu ul li a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.container .menu ul li a:hover{
+	background-color: deepskyblue;
+	color: white;
+}
+
+
+/*end header menu*/
+
+
+.container-satu{
+	background-color: #ddd;
+	padding: 5px;
+	margin: 10px;
+	display: flex;
+}
+
+.container-satu .leftsidebar{
+	flex: 1;
+	order: 1;
+	padding: 5px;
+	margin: 5px;
+}
+
+.container-satu .rightsidebar{
+	flex: 1;
+	order: 3;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+.container-satu .content{
+	flex: 3;
+	order: 2;
+	padding: 5px;
+	margin: 5px;
+}
+
+.container-satu h4, .container-satu p{
+	margin-bottom: 10px;
+}
+
+.container-satu .rightsidebar{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-satu .rightsidebar div{
+	margin: auto;
+	border: 1px solid black;
+}
+
+.container-satu .leftsidebar ul li{
+	margin: 5px;
+	list-style: none;
+}
+.container-satu .leftsidebar ul li a{
+	text-decoration: none;
+	color: darkcyan;
+}
+.container-satu .leftsidebar ul li a:hover{
+	color: white;
+	background-color: salmon;
+}
+
+.container-dua{
+	display: flex;
+	margin: 10px;
+}
+
+.container-dua .kotak{
+	height: 100px;
+	margin: auto;
+}
+
+.container-dua .kotak1{
+	flex: 1;
+	width: 30%;
+	padding: 5px;
+	background-color: orangered;
+}
+.container-dua .kotak2{
+	flex: 1;
+	width: 30%;
+	padding: 5px;
+}
+.container-dua .kotak3{
+	flex: 1;
+	width: 30%;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

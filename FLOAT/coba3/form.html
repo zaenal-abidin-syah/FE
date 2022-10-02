@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form | Pemuda Peduli</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>Komunitas Pemuda Peduli</h1>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a> </li>
+		</ul>
+		<ul>
+			<li><a href="">About Us</a></li>
+		</ul>
+		<ul>
+			<li><a href="kontak.html">Contact</a> </li>
+		</ul>
+		<ul>
+			<li><a href="evaluation.html">Evaluation</a></li>
+		</ul>
+		
+	</div>
+	<div class="sidebar formHeight">
+		<h1>Follow Us!</h1>
+		<h2><img src="./gambar/logofb.png" width="20" height="18" alt="logo fb" style="float:left;margin: 0px;"><a href="https://www.Facebook.com">Facebook</a></h2>
+		<h2><img src="./gambar/logoig.png" width="20" height="18" alt="logo ig" style="float:left;margin: 0px;"><a href="https://www.instagram.com">Instagram</a></h2>
+	</div>
+	<div class="sidebarkanan formHeight">
+		<h1>News!</h1>
+		<div class="sidebox">
+			<h1>Event</h1>
+			<ul>
+				<li><a href="news1.html">
+					<img src="./gambar/news1.png"  width="140" height="68" alt="news1" style="margin: 10px">Gerakan Bersih Pantai Pemuda Peduli</a>
+				</li>
+			</ul>
+			<ul>
+				<li><a href="news2.html">
+					<img src="./gambar/news2.jpg"  width="140" height="98" alt="news2" style="margin: 10px">KUMPUL sedang melakukan perwatan tanaman</a>
+				</li>
+			</ul>
+		</div>
+		<div class="sidebox">
+			<h1>Announcement</h1>
+			<ul>
+				<li><a href="">
+					<img src="./gambar/logo.png"  width="120" height="110" alt="logo" style="margin-top: 5px;">Informasi Pendaftaran KUMPUL</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="content formHeight">		
+		<div id="form">
+			<h2>KOMUNITAS PEMUDA PEDULI</h2>
+			<h3>FORMULIR PENDAFTARAN</h3>
+			<form name="form" id="myform" action="index.html" method="post" onsubmit="return checkFill();">
+				<div>
+						
+					<label for="name">Nama Lengkap</label>
+					<input id="name" name="nama">	
+					<p id="resName"></p>
+				</div>
+				<div>
+					<label for="username">Username</label>
+					<input id="username" name="username">
+					<p id="resUser"></p>
+				</div>
+				<div>
+					<label for="umur">Umur</label>
+					<input id="umur" name="umur">					
+					<p id="resUmur"></p>
+				</div>
+				<div>
+					<label for="tl">Tanggal Lahir</label>
+					<input id="tl" name="tl">
+					<p id="resTl"></p>
+				</div>
+				<div>
+					<h4>Jenis Kelamin</h4>
+					<label for="male">Laki laki</label>
+					<input type="radio" id="male" value="male" name="gender">
+					<label for="female">Perempuan</label>
+					<input type="radio" value="female" id="female" name="gender">
+					<p id="resGender"></p>
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input id="email" name="email">
+					<p id="resEmail"></p>
+				</div>
+				<div>
+					<label>No. Handphone</label>
+					<input id="noHp" name="noHp">
+					<p id="resNoHp"></p>
+				</div>
+				<div>
+					<label for="city">Kota Asal</label>
+					<select name="city" id="city">
+						<option value="" selected disabled>pilih asal kota</option>
+						<option value="surabaya">Surabaya</option>
+						<option value="malang">Malang</option>
+						<option value="sidoarjo">Sidoarjo</option>
+						<option value="bangkalan">Bangkalan</option>
+						<option value="banyuwangi">Banyuwangi</option>
+						<option value="blitar">Blitar</option>
+						<option value="bojonegoro">Bojonegoro</option>
+						<option value="bondowoso">Bondowoso</option>
+						<option value="gresik">Gresik</option>
+						<option value="jember">Jember</option>
+						<option value="lamongan">Lamongan</option>
+						<option value="madiun">Madiun</option>
+						<option value="ngawi">Ngawi</option>
+						<option value="sumenep">Sumenep</option>
+						<option value="pacitan">Pacitan</option>
+						<option value="ponorogo">Ponorogo</option>
+						<option value="probolinggo">Probolinggo</option>
+					</select>
+					<p id="resCity"></p>
+				</div>
+				<div>
+					
+					<label for="textarea">Moto Hidup</label>
+					<textarea id="textarea" name="motohidup"></textarea>	
+					<p id="resMoto"></p>
+				</div>
+				<div>
+					<label for="checkbox">bersedia menerima persyaratan</label>
+					<input id="checkbox" type="checkbox" name="checkbox">
+					<p id="resCheckBox"></p>
+				</div>
+				<div>
+					<input type="submit" name="button">
+					<p id="resButton"></p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Dasar Pemrograman Web 2B </p>
+		<p>DPW2021-2-B05 </p>
+		<p>Copyright © 2022 Pemuda Peduli. All Rights Reserved</p>
+	</div>
+</body>
+</html>

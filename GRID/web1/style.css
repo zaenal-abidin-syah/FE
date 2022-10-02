@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  color: rgb(110, 13, 13);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header nav"
+    "image image image"
+    "card card card"
+    "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 4fr 6fr 1fr;
+}
+
+header {
+  grid-area: header;
+  font-weight: bold;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  grid-area: nav;
+  font-size: 1.1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li {
+  flex: 1;
+  margin: auto 10px;
+  text-align: center;
+}
+
+.thumbnail {
+  grid-area: image;
+  width: 100%;
+}
+.card {
+  padding: 50px;
+  grid-area: card;
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+.card-1 {
+  grid-area: card1;
+}
+.card-2 {
+  grid-area: card2;
+}
+.card-3 {
+  grid-area: card3;
+}
+.card-4 {
+  grid-area: card4;
+}
+.card-5 {
+  grid-area: card5;
+}
+.card-child {
+  border-radius: 5px;
+  background-color: red;
+}
+footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 30px auto;
+  background-color: rgb(51, 26, 26);
+  color: rgb(170, 162, 162);
+}
+footer a {
+  color: inherit;
+}

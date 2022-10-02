@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Pendaftaran | Pemuda Peduli</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>Komunitas Pemuda Peduli</h1>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a> </li>
+		</ul>
+		<ul>
+			<li><a href="">About Us</a></li>
+		</ul>
+		<ul>
+			<li><a href="kontak.html">Contact</a> </li>
+		</ul>
+		<ul>
+			<li><a href="">Evaluation</a></li>
+		</ul>
+		
+	</div>
+	<div class="sidebar">
+		<h1>Follow Us!</h1>
+		<h2><img src="./gambar/logo fb.png" width="20" height="18" alt="logo fb" style="float:left;margin: 0px;"><a href="https://www.Facebook.com">Facebook</a></h2>
+		<h2><img src="./gambar/logo ig.png" width="20" height="18" alt="logo ig" style="float:left;margin: 0px;"><a href="https://www.instagram.com">Instagram</a></h2>
+	</div>
+	<div class="sidebarkanan">
+		<h1>News!</h1>
+	</div>
+	<div class="content">
+		<div id="form">
+			<h2>KOMUNITAS PEMUDA PEDULI-KUMPUL</h2>
+			<h3>FORMULIR PENDAFTARAN</h3>
+			<form name="form" id="myform" action="index.html" method="post" onsubmit="return checkFill();">
+				<div>
+					<label>
+						<h4>Nama Lengkap</h4>
+						<input id="name" name="nama">
+					</label>
+					<p id="resName"></p>
+				</div>
+				<div>
+					<label>
+						<h4>Username</h4>
+						<input id="username" name="username">
+					</label>
+					<p id="resUser"></p>
+				</div>
+				<div>
+					<label>
+						<h4>Umur</h4>
+						<input id="umur" name="umur">
+					</label>
+					<p id="resUmur"></p>
+				</div>
+				<div>
+					<label>
+						<h4>Tanggal Lahir</h4>
+						<input id="tl" name="tl">
+					</label>
+					<p id="resTl"></p>
+				</div>
+				<div>
+					<h4>Jenis Kelamin</h4>
+
+					<label for="male">Laki laki</label>
+					<input type="radio" id="male" name="gender">
+					<label for="female">Perempuan</label>
+					<input type="radio" id="female" name="gender">
+					<p id="gender"></p>
+				</div>
+				<div>
+					<label>
+						<h4>Email</h4>
+						<input id="email" name="email">
+					</label>
+					<p id="resEmail"></p>
+				</div>
+				<div>
+					<label>
+						<h4>No. Handphone</h4>
+						<input id="noHp" name="noHp">
+					</label>
+					<p id="resNoHp"></p>
+				</div>
+				<div>
+					<label>
+						<h4>Kota Asal</h4>
+						<select name="city" id="city">
+							<option value="surabaya">Surabaya</option>
+							<option value="malang">Malang</option>
+						</select>
+					</label>
+					<p id="nameCity"></p>
+				</div>
+				<div>
+					
+					<label for="textarea"><h4>Moto Hidup</h4></label>
+					<textarea id="textarea" name="motohidup"></textarea>	
+					<p id="resMoto"></p>
+				</div>
+				<div>
+					<label>bersedia menerima persyaratan</label>
+					<input id="checkbox" type="checkbox" name="checkbox">
+					<p id="resCheckBox"></p>
+				</div>
+				<div>
+					<input type="submit" name="button">
+					<p id="resButton"></p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Dasar Pemrograman Web 2B </p>
+		<p>DPW2021-2-B05 </p>
+		
+	</div>
+</body>
+</html>

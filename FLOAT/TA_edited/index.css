@@ -1,0 +1,376 @@
+body{
+	background-image:url(./gambar/pattern.png);
+	font-family:  verdana, arial, helvetica, sans-serif;
+	margin:0px;
+	padding: 0;
+	font-size: 16px;
+	/* min-width: 600px; */
+}
+/*pengaturan header*/
+header{
+	padding: 10px;
+	text-align: center;
+	background-color: #0d836b;
+	color:  #d7f5ef;
+	font-size: 1em;
+	border-radius: 0 0 2px 2px;
+	box-shadow: 2px 2px 2px #044134;
+	overflow: auto;
+}
+header h1{
+	padding-left: 10px;
+	font-size: 1.8em;
+	float: left;
+}
+/*pengaturan menu*/
+.menu{
+	float: right;
+	/* height: 46px; */
+}
+
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	display: block;
+	color: inherit;
+	margin: auto 10px;
+	padding: 10px;
+	text-decoration: none;	
+}
+
+.menu ul li a:hover{
+	color:  #102c27;
+	background-color: #85f0da;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px #022c24;
+}
+/*content*/
+.wrapper{
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+
+.content{
+	box-sizing: border-box;
+	padding: 15px;
+	min-height: 150vh;
+	width: calc(50% - 10px);
+	background: #e8f3f1;
+	margin: 0px auto;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px #022c24;
+}
+
+/*sidebar*/
+
+.sidebar{
+	box-sizing: border-box;
+	padding:5px;
+	background-color: #0d836b;
+	float: left;
+	width: calc(25% - 20px);
+	min-height: 150vh;
+	overflow: auto;
+	text-align: center;
+	border-radius: 0 2px 2px 0;
+	box-shadow: 2px 2px 2px #022c24;
+}	
+.sidebar h1{
+	padding:10px;
+	color: #e8f3f1;
+}
+
+
+.sidebar a{
+	height: 30px;
+	display: inline-block;
+	padding: 10px;
+	color: inherit;
+	text-decoration: none;
+}
+.sidebar a span{
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.sidebar a:hover{
+	color: #85f0da;
+}
+
+.sidebar a img{
+	height: inherit;
+}
+
+
+/*sidebarkanan*/
+div.sidebarkanan{
+	box-sizing: border-box;
+	padding:5px;
+	min-height: 150vh;
+	background-color: #0d836b;
+	width: calc(25% - 20px);
+	float: right;
+	border-radius: 2px 0 0 2px;
+	box-shadow: 2px 2px 2px #022c24;
+}
+div.sidebarkanan h1{
+	margin: 10px;
+	padding:10px;
+	text-align: center;
+	color: #e8f3f1;
+}
+
+/*sidebox-sidebarkanan*/
+div.sidebox{
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #8ee4af;
+	margin: 0px auto;
+	background: #e8f3f1;
+	margin-top: 20px;
+	text-align: center;
+}
+div.sidebox h1{
+	background-color: #8ee4af;
+	font-size: 13pt;
+	color: #e8f3f1;
+	margin: 0px auto;
+}
+.sidebox img{
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+div.sidebox ul{
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 0px;
+	list-style: none;
+	font-size: 13px;
+}
+
+div.sidebox ul li a{
+	color: black;
+	margin-top: 10px;
+	margin: 5px;
+}
+/*footer*/
+div.footer{
+	margin: 0px;
+	background-color: #1b695a;
+	padding: 10px;
+}
+div.footer p{
+	padding: 5px;
+	color: #e8f3f1;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+/*UNTUK FORM */
+
+#form h2,
+#form h3{
+	text-align: center;
+}
+#form{
+	padding: 10px auto;
+	border: solid 1px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+#form div{
+	margin: 10px 0px;
+	padding: 5px;
+}
+#form label{
+	display: inline-block;
+	width: calc(25% - 10px);
+	line-height: 30px;
+}
+
+#form h4{
+	width: calc(25% - 10px);
+	margin: 0 5px;
+	line-height: 30px;
+	display: inline-block;
+}
+#form input,
+#form select{
+	width: calc(75% - 20px);
+	height: 30px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#form textarea{
+	width: calc(75% - 10px);
+	height: 100px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#form #male,
+#form #female,
+#form input[type="checkbox"]{
+	width: 20px;
+	margin: 0;
+}
+#form label[for="male"],
+#form label[for="female"]{
+	width: auto;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+#form label[for="checkbox"]{
+	width: auto;
+}
+
+
+
+label,input,#form input[type="submit"]{
+	padding: 5px;
+}
+
+
+#form input[type="submit"]{
+	height: 30PX;
+	width: 20%;
+	border-radius: 10px;
+	margin-left: 180px;
+}
+
+#form div p{
+	font: italic 14px/16px 'Courier New';
+	margin: 2px 0px 0px 210px;
+	padding: 5px 5px;
+	height: 20px;
+	color: red;
+}
+/*tinggi sidebar dan konten khusus form*/
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+/*form end*/
+
+/*khusus about us*/
+
+
+div.about-section,
+.row,.column,.column1, 
+div.about-section table {
+	box-sizing: border-box;
+}
+div.about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #379683;
+	color: white;
+}
+div.about-page .row {
+	margin-left:-5px;
+	margin-right:-5px;
+}
+  
+div.about-page  .column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+div.about-page  .column1 {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	padding: 5px;
+	
+}
+
+/* Clearfix (clear floats) */
+div.about-page  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div.about-page table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+  
+}
+
+div.about-page th, 
+div.about-page td {
+	text-align: left;
+	padding: 16px;
+}
+
+div.about-page tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Tata letak responsif - membuat dua kolom bertumpuk, bukan bersebelahan pada layar yang lebih kecil dari 600 piksel */
+@media screen and (max-width: 600px) {
+  div.about-page .column {
+    width: 100%;
+  }
+  div.about-page .column1 {
+	width: 100%;
+  }
+}
+/*end about us*/
+
+
+/*evaluasi*/
+.evaluation table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.evaluation table,
+.evaluation th,
+.evaluation td{
+	border: 2px solid black;
+}
+
+
+.evaluation th,
+.evaluation td{
+	height: 70px;
+	padding: 10px;
+}
+
+/*end evaluasi*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

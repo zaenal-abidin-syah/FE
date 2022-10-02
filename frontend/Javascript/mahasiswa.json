@@ -1,0 +1,23 @@
+[
+	{
+		"nama":"zaenal",
+		"nrp":"543663",
+		"email":"zaennns@gmail.com",
+		"jurusan":"teknik informatika",
+		"iddosenwali":1
+	},
+	{
+		"nama":"rizki",
+		"nrp":"3423524",
+		"email":"rizkis@gmail.com",
+		"jurusan":"teknik informatika",
+		"iddosenwali":2
+	},
+	{
+		"nama":"abidin",
+		"nrp":"546213",
+		"email":"bidin@gmail.com",
+		"jurusan":"teknik industri",
+		"iddosenwali":2
+	}
+]

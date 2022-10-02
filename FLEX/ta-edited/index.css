@@ -1,0 +1,348 @@
+body{
+	background-image:url(./gambar/pattern.png);
+	font-family:  verdana, geneva, arial, helvetica, sans-serif;
+	margin:0px;
+	min-width: 600px;
+}
+/*pengaturan header*/
+div.header{
+	height: 100px;
+	text-align: center;
+	background-color: #379683;
+	color: white;
+	font-size: 13px;
+
+}
+div.header h1{
+	margin: 5px;
+	padding:35px;
+
+}
+/*pengaturan menu*/
+div.menu{
+	height: 46px;
+	width:auto;
+	background-color: #8ee4af;
+	clear: both;
+
+}
+div.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+div.menu ul li{
+	float: left;
+	color: white;
+}
+div.menu ul li a{
+	float: left;
+	color: black;
+	padding: 12px 20px;
+	background-color:#8ee4af;
+	color: white;
+	text-decoration: none;	
+}
+
+div.menu ul li a:hover{
+	color: black;
+	background: #2bae66ff;
+}
+/*content*/
+div.content{
+	max-width: 800px;
+	width: 100%;
+	background: #fff;
+	margin: 15px auto;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+	padding: 30px;
+
+}
+div.content p{
+	margin-left: 10px;
+}
+div.content h2{
+  	font-size: 18px;
+  	font-family: roman,cambria,garamond, serif;
+}
+
+/*sidebar*/
+
+div.sidebar{
+	margin: 5px;
+	margin-top: 10px;
+	padding:5px;
+	background-color:#379683;
+	float: left;
+	width: 180px;
+	height:800px;
+}	
+div.sidebar h1{
+	margin: 10px;
+	padding:10px;
+	text-align: center;
+	color: white;
+}
+div.sidebar h2{
+	font-size: 15px;
+	padding:5px;
+}
+div.sidebar h2 a{
+	color: white;
+	text-decoration: none;
+}
+/*sidebarkanan*/
+div.sidebarkanan{
+	margin: 5px;
+	margin-top: 10px;
+	background-color:#379683;
+	float: right;
+	width: 180px;
+	height: 800px;
+	padding: 5px;
+
+}
+div.sidebarkanan h1{
+	margin: 10px;
+	padding:10px;
+
+	text-align: center;
+	color: white;
+}
+
+/*sidebox-sidebarkanan*/
+div.sidebox{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #8ee4af;
+	margin: 0px;
+	background: white;
+	margin-top: 20px;
+}
+div.sidebox h1{
+	background-color: #8ee4af;
+	font-size: 13pt;
+	color: white;
+	margin: 0px;
+	text-align: center;
+
+}
+div.sidebox ul{
+	margin: 5px;
+	padding: 0px;
+	list-style: none;
+	font-size: 13px;
+	text-align: center;
+
+}
+
+div.sidebox ul li a{
+
+	color: black;
+	margin-top: 10px;
+}
+/*footer*/
+div.footer{
+	margin: 0px;
+	background-color: #379683;
+	clear: both;
+	height: 95px;
+
+}
+div.footer p{
+	padding: 5px;
+	margin:0px;
+	color: white;
+	font-size: 13px;
+	height: auto;
+	text-align: center;
+}
+
+
+/*UNTUK FORM */
+
+
+/*tinggi sidebar dan konten khusus form*/
+
+div.formHeight{
+	height: 1200px;
+	max-height: 1300px;
+}
+
+#form h2,
+#form h3{
+	text-align: center;
+}
+
+#form{
+	padding: 10px auto;
+	border: solid 1px;
+	border-radius: 5px;
+}
+
+#form div{
+	margin: 10px 5px;
+	/*border: 1px solid;*/
+}
+
+#form label{
+	display: inline-block;
+	width: 150px;
+	line-height: 30px;
+}
+
+#form h4{
+	width: 150px;
+	margin-left:15px;
+	margin-right: 5px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+#form input,
+#form select{
+	width: 550px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#form textarea{
+	width: 550px;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+
+#form #male,
+#form #female,
+#form input[type="checkbox"]{
+	width: 20px;
+	margin: 0;
+}
+#form label[for="male"],
+#form label[for="female"]{
+	width: auto;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+#form label[for="checkbox"]{
+	width: auto;
+}
+
+
+
+label,input,#form input[type="submit"]{
+	margin: 5px;
+	padding: 5px;
+}
+
+
+#form input[type="submit"]{
+	width: 100px;
+	height: 30PX;
+	border-radius: 10px;
+	margin-left: 180px;
+}
+
+
+#form div p{
+	font: italic 14px/16px 'Courier New';
+	margin: 0px 0px 0px 210px;
+	padding: 0px 5px;
+
+}
+/*form end*/
+
+/*khusus about us*/
+
+
+div.about-section,
+.row,.column,.column1, 
+div.about-section table {
+	box-sizing: border-box;
+}
+div.about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #379683;
+	color: white;
+}
+div.about-page .row {
+	margin-left:-5px;
+	margin-right:-5px;
+}
+  
+div.about-page  .column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+div.about-page  .column1 {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	padding: 5px;
+	
+}
+
+/* Clearfix (clear floats) */
+div.about-page  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div.about-page table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+  
+}
+
+div.about-page th, 
+div.about-page td {
+	text-align: left;
+	padding: 16px;
+}
+
+div.about-page tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Tata letak responsif - membuat dua kolom bertumpuk, bukan bersebelahan pada layar yang lebih kecil dari 600 piksel */
+@media screen and (max-width: 600px) {
+  div.about-page .column {
+    width: 100%;
+  }
+  div.about-page .column1 {
+	width: 100%;
+  }
+}
+/*end about us*/
+
+
+/*evaluasi*/
+.evaluation table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.evaluation table,
+.evaluation th,
+.evaluation td{
+	border: 2px solid black;
+}
+
+
+.evaluation th,
+.evaluation td{
+	height: 70px;
+	padding: 10px;
+}
+
+/*end evaluasi*/

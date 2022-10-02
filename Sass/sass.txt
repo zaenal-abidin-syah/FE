@@ -1,0 +1,36 @@
+sass adalah sebuah css prepposesor dimana kita bisa menuliskan sintaks css dengan lebih keren lagi karena memiliki banyak sekali fitur.
+
+dengan menggunakan css prepposesor ada satu langkah tambahan, kita tidak menulis sintaks di file cssnya melainkan disebuah file yang nantinya akan di kompilasi atau diterjemahkan dengan menggunakan compiler khusus sehingga file yang kita tulis berubah menjadi file css.
+
+dengan menggunakan prepposesor kita bisa punya variable dan bisa menulis sintaks secara bersarang
+
+css prepposesor muncul karena dirasa ada kekurangan pada css
+- dulu css tidak ada variable
+- tidak ada function
+- tidak ada modularisasi
+- tidak bisa melakukan operasi atau logika pemrograman
+- banyak duplikasi kode
+
+solusi dari prepposesor
+- variable
+- mixin => serangkaian style yg cukup kita pakai berulangkali
+- import & uses
+- operator & built-in function
+- nested css
+
+
+
+alasan menggunakan sass
+- mempermudah penulisan 
+- mempermudah pengelolaan
+- memiliki banyak fungsi built -in
+- dapat membuat fungsi sendiri
+- kita dapat memodifikasi framework css (bootstrap / materialize)
+- masih banyak perusahaan menggunakan css
+
+
+alasan tidak menggunakan sass
+- banyak fitur sass yang sekarang sudah dimiliki css
+- tidak untuk project kecil
+- style component / css in js
+

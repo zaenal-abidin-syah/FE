@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 249, 255);
+    color: rgb(124, 124, 255);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    box-shadow: .5px .5px 2px rgb(149, 149, 247);
+}
+header{
+    flex: 1.5;
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li a:hover{
+    color: rgb(174, 174, 247);
+}
+img{
+    display: block;
+    width: 100%;
+    box-shadow: .5px .5px 2px rgb(149, 149, 247);
+    padding-top: 5px;
+}
+.container-content{
+    display: flex;
+    font-size: 1.2em;    
+}
+.content{
+    flex: 2;
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.content section{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    box-shadow: 0px 2px 0px rgb(149, 149, 247);
+
+}
+
+aside{
+    flex: 1;
+    padding: 20px;
+}
+aside section{
+    box-shadow: 0px 2px 0px rgb(216, 216, 241);
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+aside section:hover{
+    color: rgb(147, 147, 252);
+}
+footer{
+    background-color: rgb(174, 174, 219);
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(4, 4, 78);
+    padding: 10px;
+}

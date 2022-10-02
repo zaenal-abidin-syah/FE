@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+	border: 5px solid black;
+	text-align: center;
+}
+
+.header{
+	background-color: brown;
+	height: 60px;
+	line-height: 60px;
+}
+
+.main{
+	float: right;
+	width: 60%;
+	height: 400px;
+	line-height: 400px;
+	background-color: grey;
+}
+.side{
+	flex: left;
+	width: 40%;
+	height: 400px;
+}
+
+.side .aside{
+	height: 50%;
+	line-height: 200px;
+	background-color: yellow;
+}
+
+.side .nav{
+	height: 50%;
+	line-height: 200px;
+	background-color: green;
+}
+
+.footer{
+	height: 30px;
+	line-height: 30px;
+	background-color: gainsboronnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn;
+}

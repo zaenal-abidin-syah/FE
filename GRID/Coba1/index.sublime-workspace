@@ -1,0 +1,671 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wd",
+				"width"
+			],
+			[
+				"i",
+				"ind"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"w",
+				"flex-wrap"
+			],
+			[
+				"f",
+				"flex-wrap"
+			],
+			[
+				"fl",
+				"flex-wrap"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"a",
+				"align-items"
+			],
+			[
+				"co",
+				"contact"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"container",
+				"container-satu"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"red",
+				"orangered"
+			],
+			[
+				"d",
+				"darkcyan"
+			],
+			[
+				"sa",
+				"salmon"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"sk",
+				"deepskyblue"
+			],
+			[
+				"j",
+				"justify-items"
+			],
+			[
+				"S",
+				"space-between"
+			],
+			[
+				"J",
+				"justify-content"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"s",
+				"stretch"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sid",
+				"sidebarkiri"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"isU",
+				"isUserName"
+			],
+			[
+				"isN",
+				"isName"
+			],
+			[
+				"reg",
+				"regName"
+			],
+			[
+				"r",
+				"resName"
+			],
+			[
+				"res",
+				"resName"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"u",
+				"umur"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"tab",
+				"tabel"
+			],
+			[
+				"h",
+				"hsla()"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"side",
+				"sidebarkanan"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"iput",
+				"input"
+			],
+			[
+				"isM",
+				"isMoto"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"is",
+				"isLength"
+			],
+			[
+				"g",
+				"gender"
+			],
+			[
+				"gen",
+				"genderValue"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"n",
+				"noHp"
+			],
+			[
+				"mr",
+				"margin-top"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"br",
+				"rosybrown"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"si",
+				"sidebarkiri"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"k",
+				"skyblue"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"bl",
+				"slateblue"
+			],
+			[
+				"pd",
+				"padding-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"dark",
+				"darkgray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "ini"
+					},
+					"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					11,
+					"left_delete",
+					null,
+					"AwAAAAIAAAAAAAAAAgAAAAAAAAABAAAAaQEAAAAAAAAAAQAAAAAAAAABAAAAbgAAAAAAAAAAAAAAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Arithmetic"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			],
+			[
+				"inst",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"color pi",
+				"Package Control: Remove Repository"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/zass/.config/sublime-text/Packages/User/ColorPicker.sublime-settings",
+		"/home/zass/Documents/ajg/coba1.html",
+		"/home/zass/package-lock.json",
+		"/home/zass/package.json",
+		"/home/zass/Documents/ajg/js.js",
+		"/home/zass/Documents/ajg/level1.html",
+		"/home/zass/Documents/ajg/.eslintrc",
+		"/home/zass/Documents/UAS/level6.html",
+		"/home/zass/Documents/UAS/level3.html",
+		"/home/zass/Documents/UAS/level2.html",
+		"/home/zass/Documents/UAS/level1.html",
+		"/home/zass/Documents/uas/level2.html",
+		"/home/zass/Documents/uas/level6.html",
+		"/home/zass/Documents/uas/level3.html",
+		"/home/zass/Documents/PROJECT/WEB DEVELOPMENT/FLEX/coba2/style.css",
+		"/home/zass/Documents/PROJECT/WEB DEVELOPMENT/FLEX/coba2/index.html",
+		"/home/zass/Documents/PROJECT/WEB DEVELOPMENT/FLEX/coba1/style.css",
+		"/home/zass/Documents/PROJECT/WEB DEVELOPMENT/FLEX/coba1/index.html",
+		"/home/zass/.local/share/Trash/files/ask.html",
+		"/home/zass/.local/share/Trash/files/form.html",
+		"/home/zass/.local/share/Trash/files/latihan1.html",
+		"/home/zass/.local/share/Trash/files/js.js",
+		"/home/zass/.local/share/Trash/files/index.css",
+		"/home/zass/.local/share/Trash/files/style3.css",
+		"/home/zass/.local/share/Trash/files/variable.html",
+		"/home/zass/.local/share/Trash/files/style.css",
+		"/home/zass/.local/share/Trash/files/style2.css",
+		"/home/zass/Documents/flex-box/style.css",
+		"/home/zass/Documents/flex-box/flex.html",
+		"/media/zass/BC9C2FC89C2F7C50/Users/windows_10/My Documents/dpw/tugas ta/New folder/contoh.py",
+		"/media/zass/BC9C2FC89C2F7C50/Users/windows_10/My Documents/dpw/tugas ta/New folder/contoh.html",
+		"/home/zass/Documents/DPW2021-2-B05_TA/index.html",
+		"/home/zass/Documents/browser/index.html",
+		"/home/zass/Documents/browser/style.css",
+		"/home/zass/Documents/web-boostrap/ind",
+		"/home/zass/Documents/boostrap/css/bootstrap.css",
+		"/home/zass/Documents/ta/final/tugas akhir/form.html",
+		"/home/zass/Documents/ta/final/tugas akhir/evaluation.html",
+		"/home/zass/Documents/ta/final/tugas akhir/aboutus.html",
+		"/home/zass/Documents/ta/final/tugas akhir/news2.html",
+		"/home/zass/Documents/ta/final/tugas akhir/news1.html",
+		"/home/zass/Documents/ta/final/tugas akhir/kontak.html",
+		"/home/zass/Documents/ta/final/tugas akhir/index.css",
+		"/home/zass/Documents/ta/final/tugas akhir/index.html",
+		"/home/zass/Documents/ta/final/tugas akhir/script.js",
+		"/home/zass/Documents/TA/Form.html",
+		"/home/zass/Documents/TA/assets/js/ask.js",
+		"/home/zass/Documents/web/index.html",
+		"/home/zass/Documents/web/style.css",
+		"/home/zass/Downloads/new.html",
+		"/home/zass/Documents/ta/final/index.css",
+		"/home/zass/Documents/ta/final/tugas akhir/script3.js",
+		"/home/zass/Documents/ta/tugas final/tugas akhir/Form_Registration.html",
+		"/home/zass/Documents/ta/tugas final/tugas akhir/index.css",
+		"/home/zass/Documents/ta/tugas final/tugas akhir/script.js",
+		"/home/zass/Documents/web/js.js",
+		"/home/zass/Documents/javascript/dom selection/script.js",
+		"/home/zass/Documents/ta/ask.html",
+		"/home/zass/Documents/ta/tugas akhir/index.html",
+		"/home/zass/Documents/ta/tugas akhir/index.css",
+		"/home/zass/Documents/ta/tugas akhir/kontak.html",
+		"/home/zass/Documents/ta/style.css"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
